@@ -97,7 +97,7 @@ android {
             isEnable = isReleaseBuild
             reset()
             include("armeabi-v7a", "arm64-v8a")
-            universalApk = false
+            setUniversalApk(false)
         }
     }
 
@@ -130,8 +130,10 @@ android {
 }
 
 aboutLibraries {
-    duplicationMode = com.mikepenz.aboutlibraries.plugin.DuplicateMode.MERGE
-    duplicationRule = com.mikepenz.aboutlibraries.plugin.DuplicateRule.SIMPLE
+    library {
+        duplicationMode = com.mikepenz.aboutlibraries.plugin.DuplicateMode.MERGE
+        duplicationRule = com.mikepenz.aboutlibraries.plugin.DuplicateRule.SIMPLE
+    }
 }
 
 room {
