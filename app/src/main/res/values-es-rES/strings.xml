@@ -341,4 +341,3 @@
     <string name="suggestion_user_restricted">Ve a las opciones de desarrollador y activa la instalación USB</string>
     <string name="suggestion_bypass_low_target_sdk">Permite temporalmente omitir la restricción y vuelve a intentarlo</string>
 </resources>
-</resources>
